@@ -30,5 +30,8 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'io.cucumber:cucumber-java:7.18.1'
+    testImplementation 'io.cucumber:cucumber-junit:7.18.1'
+	testRuntimeOnly 'org.eclipse.jetty:jetty-client'
 }
 
