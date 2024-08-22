@@ -105,7 +105,7 @@ public class Stepdefs {
         orderId = orderIdContents[1];
     }
 
-    @Then("order completed successfullly")
+    @Then("order completed successfully")
     public void order_completed_successfullly() {
         assertEquals(200, response.getStatus());
         assertEquals("paymentSuccess", response.getContentAsString());

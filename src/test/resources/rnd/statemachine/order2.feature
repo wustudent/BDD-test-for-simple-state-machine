@@ -10,4 +10,4 @@ Feature: Order2
     When user submit the order
     Then the order is created with a given orderId
     When user pays 2.2 Euros for the order
-    Then order completed successfullly
+    Then order completed successfully

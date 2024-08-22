@@ -9,7 +9,7 @@ Feature: Order
     When user submit the order
     Then the order is created with a given orderId
     When user pays 2.2 Euros for the order
-    Then order completed successfullly
+    Then order completed successfully
 
   Scenario: Bad path: not enough money
     When user submit the order
